@@ -1,0 +1,72 @@
+[25-Nov-2022 11:41:07 UTC] Sync process for Gutenberg Blocks has started.
+[25-Nov-2022 11:41:07 UTC] CATEGORY:Importing categories..
+[25-Nov-2022 11:41:07 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[25-Nov-2022 11:41:07 UTC] CATEGORY:Completed category import.
+[25-Nov-2022 11:41:07 UTC] BLOCK: Getting Total Blocks
+[25-Nov-2022 11:41:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[25-Nov-2022 11:41:07 UTC] BLOCK: Requests count 4
+[25-Nov-2022 11:41:07 UTC] BLOCK: Importing request 1 ..
+[25-Nov-2022 11:41:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[25-Nov-2022 11:41:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[25-Nov-2022 11:41:07 UTC] BLOCK: Completed request 1
+[25-Nov-2022 11:41:07 UTC] BLOCK: Importing request 2 ..
+[25-Nov-2022 11:41:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[25-Nov-2022 11:41:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[25-Nov-2022 11:41:08 UTC] BLOCK: Completed request 2
+[25-Nov-2022 11:41:08 UTC] BLOCK: Importing request 3 ..
+[25-Nov-2022 11:41:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[25-Nov-2022 11:41:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[25-Nov-2022 11:41:08 UTC] BLOCK: Completed request 3
+[25-Nov-2022 11:41:08 UTC] BLOCK: Importing request 4 ..
+[25-Nov-2022 11:41:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[25-Nov-2022 11:41:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[25-Nov-2022 11:41:08 UTC] BLOCK: Completed request 4
+[25-Nov-2022 11:41:08 UTC] SITE: Getting Total Sites
+[25-Nov-2022 11:41:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[25-Nov-2022 11:41:08 UTC] SITE: Request count 2
+[25-Nov-2022 11:41:08 UTC] SITE: Importing request 1 ..
+[25-Nov-2022 11:41:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[25-Nov-2022 11:41:08 UTC] SITE: Storing in option ast-block-templates-sites-1
+[25-Nov-2022 11:41:08 UTC] SITE: Completed request 1
+[25-Nov-2022 11:41:08 UTC] SITE: Importing request 2 ..
+[25-Nov-2022 11:41:08 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[25-Nov-2022 11:41:08 UTC] SITE: Storing in option ast-block-templates-sites-2
+[25-Nov-2022 11:41:08 UTC] SITE: Completed request 2
+[25-Nov-2022 11:41:08 UTC] Sync process for Gutenberg Blocks is done.
+[28-Nov-2022 09:02:39 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_version_check. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[05-Dec-2022 09:40:25 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Dec-2022 09:40:25 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[05-Dec-2022 09:40:25 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[05-Dec-2022 09:40:25 UTC] Cron reschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[05-Dec-2022 09:40:25 UTC] Cron unschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[05-Dec-2022 09:40:31 UTC] Cron reschedule event error for hook: wp_update_themes, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[06-Dec-2022 14:05:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php on line 183
+[06-Dec-2022 14:05:07 UTC] PHP Stack trace:
+[06-Dec-2022 14:05:07 UTC] PHP   1. {main}() C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\plugin-install.php:0
+[06-Dec-2022 14:05:07 UTC] PHP   2. do_action($hook_name = 'install_plugins_featured', ...$arg = variadic(1)) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\plugin-install.php:196
+[06-Dec-2022 14:05:07 UTC] PHP   3. WP_Hook->do_action($args = [0 => 1]) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\plugin.php:517
+[06-Dec-2022 14:05:07 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => 1]) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-hook.php:332
+[06-Dec-2022 14:05:07 UTC] PHP   5. install_dashboard(1) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-hook.php:308
+[06-Dec-2022 14:05:07 UTC] PHP   6. install_popular_tags($args = *uninitialized*) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:277
+[06-Dec-2022 14:05:07 UTC] PHP   7. plugins_api($action = 'hot_tags', $args = []) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:252
+[06-Dec-2022 14:05:07 UTC] PHP   8. trigger_error($message = 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)', $error_level = 512) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:183
+[06-Dec-2022 14:05:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php on line 183
+[06-Dec-2022 14:05:32 UTC] PHP Stack trace:
+[06-Dec-2022 14:05:32 UTC] PHP   1. {main}() C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\plugin-install.php:0
+[06-Dec-2022 14:05:32 UTC] PHP   2. do_action($hook_name = 'install_plugins_featured', ...$arg = variadic(1)) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\plugin-install.php:196
+[06-Dec-2022 14:05:32 UTC] PHP   3. WP_Hook->do_action($args = [0 => 1]) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\plugin.php:517
+[06-Dec-2022 14:05:32 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => 1]) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-hook.php:332
+[06-Dec-2022 14:05:32 UTC] PHP   5. install_dashboard(1) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-hook.php:308
+[06-Dec-2022 14:05:32 UTC] PHP   6. install_popular_tags($args = *uninitialized*) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:277
+[06-Dec-2022 14:05:32 UTC] PHP   7. plugins_api($action = 'hot_tags', $args = []) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:252
+[06-Dec-2022 14:05:32 UTC] PHP   8. trigger_error($message = 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)', $error_level = 512) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:183
+[06-Dec-2022 14:06:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php on line 183
+[06-Dec-2022 14:06:24 UTC] PHP Stack trace:
+[06-Dec-2022 14:06:24 UTC] PHP   1. {main}() C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\plugin-install.php:0
+[06-Dec-2022 14:06:24 UTC] PHP   2. do_action($hook_name = 'install_plugins_featured', ...$arg = variadic(1)) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\plugin-install.php:196
+[06-Dec-2022 14:06:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => 1]) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\plugin.php:517
+[06-Dec-2022 14:06:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => 1]) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-hook.php:332
+[06-Dec-2022 14:06:24 UTC] PHP   5. install_dashboard(1) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-hook.php:308
+[06-Dec-2022 14:06:24 UTC] PHP   6. install_popular_tags($args = *uninitialized*) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:277
+[06-Dec-2022 14:06:24 UTC] PHP   7. plugins_api($action = 'hot_tags', $args = []) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:252
+[06-Dec-2022 14:06:24 UTC] PHP   8. trigger_error($message = 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)', $error_level = 512) C:\Users\sumop\Local Sites\planty4\app\public\wp-admin\includes\plugin-install.php:183

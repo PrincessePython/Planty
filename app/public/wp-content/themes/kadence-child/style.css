@@ -1,0 +1,43 @@
+/*
+Theme Name: Kadence Child Theme
+Description: Kadence Child Theme
+Author: Olga
+Template: kadence
+*/
+
+.body{
+	width: 1440px;
+}
+
+#home-sec-1-container{
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	border-bottom: 30px solid #E3D9D0;
+}
+
+#card-1{
+	width: 393px;
+	height: 262px;
+}
+#card-2{
+	width: 394px;
+	height: 263px;
+}
+#card-3{
+	width: 393px;
+	height: 262px;
+}
+#card-4{
+	width: 393px;
+	height: 262px;
+}
+.size-thumbnail {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 50%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
