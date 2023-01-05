@@ -5,8 +5,52 @@ Author: Olga
 Template: kadence
 */
 
-.body{
-	width: 1440px;
+@media screen and (min-width: 1440px) {
+	body {
+	  width: 1440px;
+	}
+}
+
+html {
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	/* width: 1440px; */
+	margin: 0 auto;
+}
+
+/****************** HOME PAGE  *****************************/
+.pamplemousse{
+	word-wrap: break-word !important;
+	text-transform:uppercase
+}
+
+.container-fraise{
+	background-image: url(http://planty4.local/wp-content/uploads/2022/11/jeremy-bezanger-0QgbyZdhX7k-unsplash-1-2.png);
+	background-repeat: no-repeat;
+	width: 393px !important;
+	height: 262px;
+
+}
+.container-pamplemousse{
+	background-image: url(http://planty4.local/wp-content/uploads/2022/11/estudio-bloom-tOitjphtIXU-unsplash-1-1.png);
+	background-repeat: no-repeat;
+		width: 393px !important;
+	height: 262px;
+}
+.container-framboise{
+	background-image: url(http://planty4.local/wp-content/uploads/2022/11/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1-1.png);
+	width: 393px !important;
+	height: 262px;
+	background-repeat: no-repeat
+}
+.container-citron{
+	background-image: url(http://planty4.local/wp-content/uploads/2022/11/estudio-bloom-ezqnxsqUZ80-unsplash-1-1.png);
+	width: 394px !important;
+	height: 263px;
+	background-repeat: no-repeat
 }
 
 #home-sec-1-container{
@@ -32,12 +76,204 @@ Template: kadence
 	height: 262px;
 }
 .size-thumbnail {
-    height: auto;
+	height: auto;
     max-width: 100%;
     border: none;
     border-radius: 50%;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+/************* Commander in nav bar ****************/
+.commander{
+	background-color: #DC9F96;
+}
+
+.header-nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+/****************** CSS FROM CUSTOMIZER ***************************/
+.class-for-overlapping {
+	z-index: 2;
+}
+.attachment-thumbnail.size-thumbnail{
+	border-radius: 50%;
+}
+
+/******************* 1st part of the order form *****************/
+
+.quantity{
+	width: 45px;
+	height: 56px;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.btns{
+
+	background-color: #DC9F96 !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	height: 28px;
+}
+
+.btns:first-child {
+	border-bottom: 1px solid white;
+  }
+  
+.both-btns {
+	display: flex;
+	flex-direction:column ;
+	justify-content: center;
+	align-items: center;
+}
+  
+.btn-ok{
+	background-color: #E0B9B4 !important;
+	width: 100px;
+	height: 57px;
+	margin-left: 5px;
+}
+
+.qqt-2{
+	display:flex;
+	display: flex;
+	flex-direction: row;
+	height:56px;
+	margin: 0%;
+	padding: 0%;
+
+} 
+
+/* #qqty {
+	width:30%;
+	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+} */
+/* 
+#votre-commande{
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+	width:860px;
+} */
+
+/******************* 2nd part of the order form *****************/
+.contant-info{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+label {
+	color: white;
+	font-family: Syne;
+	font-weight: 400 !important;
+	font-size: 18px;
+	line-height: 24px;
+
+}
+.vos-infos-title{
+	width: 383px;
+	border-right: solid 1px white;
+	padding-right:45px;
+	margin-bottom: 40px !important;
+}
+.personal-info-form{
+	margin-top: 40px;
+}
+.delivery-info-form{
+	margin-top: 40px;
+
+}
+#last-name,#first-name, #adresse, #postal-code, #city{
+	margin-bottom: 20px;
+}
+.modif-size{
+	width: 360px !important;
+}
+
+.vos-infos-title h4{
+	color: white;
+	font-family: Syne;
+	font-weight: 700; 
+	line-height:36px;
+	width:278px;
+}
+
+.livraison-title h4{
+	color: white;
+	font-family: Syne;
+	font-weight: 700; 
+	line-height:36px;
+}
+
+#order-button{
+	background-color: #E0B9B4;
+	width: 198px;
+	height: 55px;
+	font-family: Syne;
+	font-weight: 400;
+	font-size: 15px;
+	line-height:37px;
+}
+
+#fraise-title{
+	width: 144px;
+	
+}
+
+
+/************************ Nous Rencontrer page ************************/
+
+.team-members-all{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	width: 383px; /* Modifie la largeur du formulaire */
+	margin: 0 auto; /* Centre le formulaire sur la page */
+	justify-content: center; /* Centre horizontalement le bouton */
+	gap: 20px;
+	
+  }
+  
+  .form-label {
+	display: block;
+	color: black;
+	text-align: left; /* Aligne le label à gauche */
+	margin-bottom: -15px;
+  }
+  
+  .form-input, .form-textarea {
+	width: 100%; /* Tous les champs de formulaire ont la même largeur */
+  }
+  
+  .form-button {
+	margin-top: 16px; /* Place le bouton "Envoyer" en dessous des autres champs de formulaire */
+	margin: auto; /* Centre horizontalement et verticalement le bouton */
+	width: 198px;
+	height: 55px;
+	text-align: center;
+	background-color: #E0B9B4;
+	color: white;
+  }
+  .envoyer:hover{
+	background-attachment: #E0B9B4;
+  }
+  #message{
+	height: 237px;
+  }
+
+
 
 
