@@ -230,11 +230,17 @@ label {
 
 /************************ Nous Rencontrer page ************************/
 
-.team-members-all{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+/* .all-team-memebers{
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
 }
+
+.card-member{
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+} */
 
 .contact-form {
 	display: flex;
