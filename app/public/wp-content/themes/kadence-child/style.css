@@ -245,13 +245,11 @@ label {
 .contact-form {
 	display: flex;
 	flex-direction: column;
-	/* align-items: center; */
 	width: 383px; /* Modifie la largeur du formulaire */
 	margin: 0 auto; /* Centre le formulaire sur la page */
 	justify-content: center; /* Centre horizontalement le bouton */
 	gap: 20px;
-	
-  }
+}
   
   .form-label {
 	display: block;
@@ -281,5 +279,32 @@ label {
   }
 
 
+
+/***************** Responive design  **************************/
+/* @media tablette */
+  @media (min-width: 940px) and (max-width: 1439px) {
+	.contact-form{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		width: 383px;
+		margin: 0 auto; /* Centre le formulaire sur la page */
+		justify-content: center; /* Centre horizontalement le bouton */
+		gap: 20px;
+	}
+}
+
+/* @media portable */
+@media screen and (max-width: 939px){
+	.contact-form{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		width: 380px;
+		margin: 0 auto; /* Centre le formulaire sur la page */
+		justify-content: center; /* Centre horizontalement le bouton */
+		gap: 20px;
+	}
+}
 
 
