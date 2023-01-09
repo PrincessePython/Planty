@@ -1797,3 +1797,5 @@ Stack trace:
 [30-Dec-2022 16:29:11 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'kadence-child']) C:\Users\sumop\Local Sites\planty4\app\public\wp-includes\class-wp-recovery-mode-email-service.php:155
 [30-Dec-2022 16:35:14 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\sumop\Local Sites\planty4\app\public\wp-content\themes\kadence-child\functions.php on line 40
 [30-Dec-2022 16:39:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\sumop\Local Sites\planty4\app\public\wp-content\themes\kadence-child\functions.php on line 42
+[06-Jan-2023 14:44:16 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[06-Jan-2023 14:57:01 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}

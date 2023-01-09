@@ -28,7 +28,7 @@ body{
 }
 
 .container-fraise{
-	background-image: url(http://planty4.local/wp-content/uploads/2022/11/jeremy-bezanger-0QgbyZdhX7k-unsplash-1-2.png);
+	background-image: url('/wp-content/uploads/2022/11/jeremy-bezanger-0QgbyZdhX7k-unsplash-1-2.png');
 	background-repeat: no-repeat;
 	width: 393px !important;
 	height: 262px;
@@ -147,20 +147,7 @@ body{
 	height:56px;
 	margin: 0%;
 	padding: 0%;
-
 } 
-
-/* #qqty {
-	width:30%;
-	border-radius: 20px 0px 0px 20px;
-	text-align: center;
-} */
-/* 
-#votre-commande{
-	border-top: solid 1px white;
-	border-bottom: solid 1px white;
-	width:860px;
-} */
 
 /******************* 2nd part of the order form *****************/
 .contant-info{
@@ -175,8 +162,8 @@ label {
 	font-weight: 400 !important;
 	font-size: 18px;
 	line-height: 24px;
-
 }
+
 .vos-infos-title{
 	width: 383px;
 	border-right: solid 1px white;
@@ -188,7 +175,9 @@ label {
 }
 .delivery-info-form{
 	margin-top: 40px;
-
+}
+.delivery{
+	padding-left: 25px !important;
 }
 #last-name,#first-name, #adresse, #postal-code, #city{
 	margin-bottom: 20px;
@@ -230,18 +219,29 @@ label {
 
 /************************ Nous Rencontrer page ************************/
 
-/* .all-team-memebers{
-	display: flex !important;
-	flex-direction: row !important;
-	justify-content: center !important;
+/*************** Team Members *****************/
+.directionRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 150px;
+
 }
 
-.card-member{
-	display: flex !important;
-	flex-direction: column !important;
-	align-items: center !important;
-} */
+.directionColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.textCenter {
+	text-align: center;
+}
 
+#team-member-img{
+	border-radius: 50%;
+}
+
+/************* Contact Form *********************/
 .contact-form {
 	display: flex;
 	flex-direction: column;
@@ -279,7 +279,6 @@ label {
   }
 
 
-
 /***************** Responive design  **************************/
 /* @media tablette */
   @media (min-width: 940px) and (max-width: 1439px) {
@@ -290,9 +289,33 @@ label {
 		width: 383px;
 		margin: 0 auto; /* Centre le formulaire sur la page */
 		justify-content: center; /* Centre horizontalement le bouton */
-		gap: 20px;
+		gap: 15px;
 	}
 }
+
+@media (min-width:940px) and (max-width: 1280px) {
+	
+	.img-branch-team{
+		display:none;
+	}
+
+	#nous-contacter-form{
+		margin-top: 40px;
+	}
+	/* page Commander, section: forms */
+	.contant-info{
+		margin: 0 auto; /* Centre le formulaire sur la page */
+	}
+	.delivery{
+		padding-left: 20px !important;
+		margin-bottom: -20px;
+	}
+	#order-button{
+		margin-top: -40px;
+	}
+}
+
+
 
 /* @media portable */
 @media screen and (max-width: 939px){
@@ -305,6 +328,55 @@ label {
 		justify-content: center; /* Centre horizontalement le bouton */
 		gap: 20px;
 	}
+
+	.directionRow {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 30px;
+	}
+	.img-branch-team{
+		display:none;
+	}
+	#nous-contacter-form{
+		margin-top: 25px;
+	}
+
+	/* page Commander, section: forms */
+	.contant-info{
+		display: flex;
+		flex-direction: column;
+		width: 360px;
+	}
+	#order-button{
+		margin-top: -50px;
+	}
+	.vos-infos-title{
+		border-right: none;
+	}
+	.delivery{
+		padding-left: 0 !important;
+		margin-bottom: -20px;
+	}
+	.line {
+		width: 100%;
+		border-top: 1px solid white;
+		margin-bottom: 30px;
+	}
+	.all-cards{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between !important;
+		margin: 0 auto;
+	}
+	.container-card-order .e-con-inner{
+		margin-top: 30px !important;
+		align-items: center !important;
+	}
+	.qqt-2{
+		margin-top: -20px;
+	}
+
 }
 
 
