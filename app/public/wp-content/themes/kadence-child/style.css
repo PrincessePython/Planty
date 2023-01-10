@@ -278,6 +278,12 @@ label {
 	height: 237px;
   }
 
+  /* Background flower decoration */
+  #flower-contact-form{
+	bottom: 185px;
+	left: -185px;
+  }
+
 
 /***************** Responive design  **************************/
 /* @media tablette */
@@ -376,7 +382,49 @@ label {
 	.qqt-2{
 		margin-top: -20px;
 	}
+	/* Header */
+	.site-header-section{
+		width: 380px;
+	}
+	.site-header-item{
+		margin-left: 110px;
+	}
+	
+
 
 }
+
+@media (min-width:320px) and (max-width: 766px){
+		/* Header */
+		 /* .site-main-header-inner-wrap .site-header-main-section-right{
+			display: none;
+		} */
+		.site-main-header-wrap {
+			width: 100% !important;
+			display: flex;
+			align-items: center !important;
+		  }
+		  
+
+
+		/* .site-main-header-inner-wrap .site-header-main-section-left{
+			background-color: red;
+			width: 100%;
+			display: flex;
+			align-items: center;
+		} */
+
+		/* Background flower decoration */
+		#flower-contact-form{
+			display: none;
+		}
+}
+/* @media (max-width: 767px) {
+	.site-header-upper-wrap {
+	  display: none;
+	}
+
+  }
+   */
 
 
