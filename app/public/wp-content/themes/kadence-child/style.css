@@ -98,12 +98,12 @@ body{
 
 
 /****************** CSS FROM CUSTOMIZER ***************************/
-.class-for-overlapping {
+/* .class-for-overlapping {
 	z-index: 2;
 }
 .attachment-thumbnail.size-thumbnail{
 	border-radius: 50%;
-}
+} */
 
 /******************* 1st part of the order form *****************/
 
@@ -213,7 +213,6 @@ label {
 
 #fraise-title{
 	width: 144px;
-	
 }
 
 
@@ -287,6 +286,7 @@ label {
 
 /***************** Responive design  **************************/
 /* @media tablette */
+
   @media (min-width: 940px) and (max-width: 1439px) {
 	.contact-form{
 		margin-top: 40px;
@@ -318,6 +318,22 @@ label {
 	}
 	#order-button{
 		margin-top: -40px;
+	}
+}
+
+@media (min-width:940px) and (max-width: 1023px){
+	/* #votre-commande{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	} */
+	.all-cards{
+		margin-top: 100px !important;
+	}
+}
+@media (min-width:1024px) and (max-width: 1440px){
+	.all-cards{
+		margin-top: 20px !important;
 	}
 }
 
@@ -384,7 +400,11 @@ label {
 	}
 	/* Header */
 	.site-header-section{
-		width: 380px;
+		width: 50%;
+
+	}
+	.site-header-row-container-inner{
+		width: 100%;
 	}
 	.site-header-item{
 		margin-left: 110px;
@@ -394,18 +414,28 @@ label {
 
 }
 
-@media (min-width:320px) and (max-width: 766px){
+@media (max-width: 767px){
 		/* Header */
-		 /* .site-main-header-inner-wrap .site-header-main-section-right{
-			display: none;
-		} */
+		.site-header-item{
+			margin-left: 10px;
+		}
 		.site-main-header-wrap {
 			width: 100% !important;
 			display: flex;
 			align-items: center !important;
 		  }
-		  
 
+		.site-header-section{
+			width: 50%;
+
+		}
+		.site-header-row-container-inner{
+			width: 100%;
+		}
+
+		.mobile-toggle-open-container{
+			margin-right: -900px;
+		}
 
 		/* .site-main-header-inner-wrap .site-header-main-section-left{
 			background-color: red;
@@ -419,12 +449,5 @@ label {
 			display: none;
 		}
 }
-/* @media (max-width: 767px) {
-	.site-header-upper-wrap {
-	  display: none;
-	}
-
-  }
-   */
 
 
